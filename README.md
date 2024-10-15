@@ -1,6 +1,6 @@
 # Présentation
 
-Projet Tinder en vue du passage du bloc 2 de la formation Jedha
+Projet Kayak en vue du passage du bloc 1 de la formation Jedha
 
 # Ressources
 
