@@ -1,7 +1,7 @@
 import pandas as pd, geopy, certifi, ssl
 from geopy.geocoders import Nominatim
 
-# Génération d'un fichier csv avec les coordonnées GPS des villes.
+# Generation of a csv file with the GPS coordinates of the cities.
 adresse = ["Mont Saint Michel",
 "Saint Malo",
 "Bayeux",
@@ -60,4 +60,5 @@ for x in adresse:
 
 output = pd.DataFrame({'adresse':adresse_list, 'longitude':longitude_list, 'latitude':latitude_list})
 
+# saving the dataframe to a csv file
 output.to_csv(rf'geolocalisation.csv', index=False, sep=';', encoding='utf-8')
